@@ -3,15 +3,16 @@
     text-align: center;
 }
 
-/* .faq-question {
-
-} */
+.faq-question {
+    font-size: 1.3em;
+}
 
 .faq-answer {
     margin-top: 15px;
     color: #244d4e;
+    font-size: 1.2em;
 }
-/* тут немного увеличим отступ у линии */
+
 .main-hr {
     margin-top: 20px;
 }
