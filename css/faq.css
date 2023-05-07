@@ -1,0 +1,17 @@
+.s1-faq-cont {
+    padding-inline: 7vw;
+    text-align: center;
+}
+
+/* .faq-question {
+
+} */
+
+.faq-answer {
+    margin-top: 15px;
+    color: #244d4e;
+}
+/* тут немного увеличим отступ у линии */
+.main-hr {
+    margin-top: 20px;
+}
