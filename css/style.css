@@ -12,12 +12,14 @@
   box-sizing: border-box;
   font-family: "Montserrat";
 }
+
 body,
 html {
   background-color: #748484;
 }
 a {
   text-decoration: none;
+  transition: 0.4s;
 }
 section {
   margin-top: 40px;
@@ -57,16 +59,17 @@ nav {
   font-size: 1.3em;
   margin-inline: 5px;
   cursor: pointer;
-  transition: 0.4s;
   text-align: center;
 }
 
-.nav-a-cont > a:hover {
+a:hover {
   color: #b01633;
+  text-shadow: 0 0 1.5em;
 }
 .logo-text:hover {
   color: #7a0a1a;
 }
+
 
 
 .main-hr {
