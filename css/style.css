@@ -3,7 +3,7 @@
   src: url(../fonts/Montserrat.ttf);
 }
 ::selection {
-  color:#b01633;
+  color: #b01633;
   background-color: #244d4e;
 }
 * {
@@ -15,6 +15,8 @@
 
 body,
 html {
+  height: 100%;
+  width: 100%;
   background-color: #748484;
 }
 a {
@@ -70,8 +72,6 @@ a:hover {
   color: #7a0a1a;
 }
 
-
-
 .main-hr {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -98,5 +98,4 @@ a:hover {
   .nav-a-cont > a {
     font-size: 0.9em;
   }
-
 }
