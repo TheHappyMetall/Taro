@@ -24,7 +24,6 @@
   border-radius: 0 20px 20px 0;
   border: #244d4e 2px solid;
   border-left: none;
-  position: relative;
 }
 
 .s1-text-title {
@@ -48,12 +47,12 @@
 }
 
 @media (max-width: 1058px) {
-  /* перенос текста в Section 1 */
   .s1-cont {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     padding-inline: 0;
+    margin: 0 auto;
   }
 
   .s1-img {
