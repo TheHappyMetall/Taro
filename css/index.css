@@ -7,14 +7,14 @@
 
 .s1-img {
   border: #244d4e 2px solid;
-  max-height: 600px;
+  max-height: 80vh;
   float: left;
 }
 
 .s1-text {
   display: flex;
   flex-wrap: wrap;
-  height: 600px;
+  height: 80vh;
   width: 50vw;
   font-size: 1.3em;
   padding: 30px;
