@@ -1,23 +1,49 @@
 .s1-faq-cont {
-    padding-inline: 7vw;
     text-align: center;
+    margin-bottom: 20px;
+    padding-inline: 10vw;
+    padding-bottom: 20px;
+    margin-inline: auto;
+}
+.s1-faq-question-cont {
+    width: 35%;
+    margin-inline: auto;
+    margin-top: 25px;
 }
 
 .faq-question {
     font-size: 1.3em;
+    display: block;
 }
 
 .faq-answer {
-    width: fit-content;
     margin: 15px auto;
     padding: 30px;
     border-radius: 20px;
     color: #244d4e;
     font-size: 1.2em;
-    background-color: rgba(242, 237, 251, 0.5);
+    background-color: rgba(242, 237, 251, 0.4);
     border: #244d4e 2px solid;
+    word-wrap: break-word;  
+    width: 50%;
 }
 
 .main-hr {
-    margin-top: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media (max-width: 1058px) {
+    .s1-faq-cont {
+        padding-inline: 0;
+    }
+    .s1-faq-cont {
+        width: 90vw;
+    }
+    .s1-faq-question-cont {
+        width: 100%;
+    }
+    .faq-answer {
+        width: 100%;
+    }
 }
