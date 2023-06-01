@@ -17,7 +17,18 @@ body,
 html {
   height: 100%;
   width: 100%;
-  background-color: #748484;
+}
+
+html {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  background: linear-gradient(rgba(54, 54, 54, 0.7), rgba(0, 0, 0, 0.8)),
+    url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
 }
 a {
   text-decoration: none;
@@ -25,14 +36,16 @@ a {
 }
 section {
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 nav {
   /* position: fixed; */
-  background-color: #244d4e;
+  background-color: rgba(36, 77, 78, 0.85);
   width: 100%;
   display: flex;
   justify-content: space-around;
+  border-bottom: #748484 1px solid;
 }
 .logo-cont {
   display: flex;

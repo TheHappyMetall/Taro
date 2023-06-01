@@ -2,6 +2,13 @@
 .s1-contacts-cont {
   text-align: center;
   font-size: 1.7em;
+  background-color: rgba(242, 237, 251, 0.8);
+  border: #244d4e 2px solid;
+  border-radius: 20px;
+  margin: 15px auto;
+  padding: 10px 30px;
+  width: fit-content;
+  box-shadow: 0px 5px 10px 5px rgba(2, 2, 2, 0.4);
 }
 .contact-link-cont {
   margin: 25px 0;
