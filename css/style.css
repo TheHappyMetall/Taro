@@ -14,24 +14,20 @@
 }
 
 body,
-html {
+html {  
   height: 100%;
   width: 100%;
 }
 
 html {
   position: relative;
+  background-color: #244d4e;
   background: linear-gradient(rgba(54, 54, 54, 0.7), rgba(0, 0, 0, 0.8)),
     url(../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: top;
-  overflow: hidden;
-}
-body {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 a {
   text-decoration: none;
