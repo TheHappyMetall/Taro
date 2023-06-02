@@ -13,20 +13,19 @@
   font-family: "Montserrat";
 }
 
-body,
-html {  
+body {  
   height: 100%;
   width: 100%;
 }
 
 html {
+  height: 100vh;
   position: relative;
-  background-color: #244d4e;
   background: linear-gradient(rgba(54, 54, 54, 0.7), rgba(0, 0, 0, 0.8)),
     url(../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: top;
 }
 a {
