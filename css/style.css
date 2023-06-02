@@ -13,13 +13,12 @@
   font-family: "Montserrat";
 }
 
-body {  
+body, html {  
   height: 100%;
   width: 100%;
 }
 
 html {
-  height: 100vh;
   position: relative;
   background: linear-gradient(rgba(54, 54, 54, 0.7), rgba(0, 0, 0, 0.8)),
     url(../img/bg.jpg);
