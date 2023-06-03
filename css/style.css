@@ -6,6 +6,7 @@
   color: #b01633;
   background-color: #244d4e;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -91,6 +92,10 @@ a:hover {
   height: 2px;
   border: 0;
   background-color: #244d4e;
+}
+img {
+  pointer-events: none;
+  user-select: none;
 }
 @media (max-width: 700px) {
   nav {
