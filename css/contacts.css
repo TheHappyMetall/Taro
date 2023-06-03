@@ -16,3 +16,11 @@
 .contacts-link {
   color: #244d4e;
 }
+
+@media (max-width: 335px) {
+.s1-contacts-cont {
+  font-size: 7vw;
+  padding: 10px 20px;
+  width: 90vw;
+}
+}

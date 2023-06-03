@@ -88,3 +88,20 @@
     font-size: 1.25em;
   }
 }
+
+@media (max-width: 335px) {
+  .s1-text {
+    padding: 20px;
+  }
+  .s1-text-title {
+    font-size: 1.1em;
+  }
+
+  .s1-text-p {
+    font-size: 0.9em;
+  }
+
+  .s1-text-end {
+    font-size: 1.05em;
+  }
+}
