@@ -29,6 +29,7 @@
 
 .s1-text-title {
   font-size: 1.6vw;
+  font-weight: 600;
 }
 
 .s1-text-p {
@@ -40,6 +41,7 @@
   width: 100%;
   text-align: center;
   margin: 7px 0;
+  user-select: none;
 }
 
 .s1-text-end {

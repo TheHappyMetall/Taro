@@ -44,6 +44,7 @@ nav {
   display: flex;
   justify-content: space-around;
   border-bottom: #748484 1px solid;
+  user-select: none;
 }
 .logo-cont {
   display: flex;

@@ -13,6 +13,7 @@
 
 .faq-question {
     font-size: 1.3em;
+    font-weight: 600;
     display: block;
     color: #8e9c9c;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.6);
