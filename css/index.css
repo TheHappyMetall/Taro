@@ -39,7 +39,7 @@
   font-size: 1.8em;
   width: 100%;
   text-align: center;
-  padding-top: 0.9em;
+  margin: 7px 0;
 }
 
 .s1-text-end {
@@ -78,12 +78,9 @@
   }
 
   .s1-text-p {
-    margin-bottom: 10px;
     font-size: 1.1em;
   }
-  .stars {
-    padding: 0.9em 0;
-  }
+
   .s1-text-end {
     font-size: 1.25em;
   }
